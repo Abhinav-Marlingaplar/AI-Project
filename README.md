@@ -2,9 +2,7 @@
 
 ## Project Overview
 This project aims to **detect fraudulent credit card transactions** using an **Artificial Neural Network (ANN)** model.  
-The model is trained on highly imbalanced transactional data to predict whether a transaction is **legitimate (0)** or **fraudulent (1)** based on several anonymized financial features.
-
-The project was developed as part of a **college course requirement** to demonstrate the practical use of ANN models in classification problems.
+The model is trained on highly imbalanced transactional data to predict whether a transaction is **legitimate (0)** or **fraudulent (1)** based on several anonymized financial features. The project was developed as part of a **college course requirement** to demonstrate the practical use of ANN models in classification problems.
 
 ---
 
@@ -65,7 +63,9 @@ To avoid local downloads, the dataset was accessed directly from **Google Drive*
        0       1.00      1.00      1.00     56864
        1       0.40      0.90      0.55        98
 
-accuracy                           1.00     56962
+       ROC-AUC Score: 0.947818927796217
+       Training Accuracy: 0.9988
+       Testing Accuracy: 0.9975
 
 
 
@@ -94,8 +94,7 @@ The model achieves an exceptionally high **accuracy and ROC-AUC score**, demonst
 ---
 
 ## Conclusion
-The ANN-based model effectively distinguishes between legitimate and fraudulent transactions with **high recall and ROC-AUC**, making it suitable for deployment in **financial fraud detection systems**.  
-Future improvements may include **ensemble methods**, **autoencoders**, or **deep learning architectures** like **LSTMs** for temporal transaction analysis.
+The ANN-based model effectively distinguishes between legitimate and fraudulent transactions with **high recall and ROC-AUC**, making it suitable for deployment in **financial fraud detection systems**.
 
 ---
 
