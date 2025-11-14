@@ -60,14 +60,18 @@ To avoid local downloads, the dataset was accessed directly from **Google Drive*
 
 **Classification Report:**
 
-           precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-       0       1.00      1.00      1.00     56864
-       1       0.40      0.90      0.55        98
+           0       1.00      1.00      1.00     56864
+           1       0.44      0.87      0.58        98
 
-       ROC-AUC Score: 0.947818927796217
-       Training Accuracy: 0.9988
-       Testing Accuracy: 0.9975
+    accuracy                           1.00     56962
+   macro avg       0.72      0.93      0.79     56962
+weighted avg       1.00      1.00      1.00     56962
+
+ROC-AUC Score: 0.9327062493539904
+Training Accuracy: 0.9989
+Testing Accuracy: 0.9978
 
 
 
